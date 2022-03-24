@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta name = 'viewport' content = 'width=device-wdith, initial-scale=1.0'>
+    <meta charset = 'UTF-8'>
+    <title>Mason's Portfolio</title>
+    <link rel = "stylesheet" href ="css/style.css" type="text/css">
+    <link rel = "icon" href = "img/logo.png" type = "image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html"class='logo'><img src="img/logo.png" class="logoimage"></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu();">About</a></li>
+            <li><a href="resume.html" onclick="toggleMenu();">Resume</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="blog.php" onclick="toggleMenu();">Blog</a></li>
+        </ul>
+    </header>
+    <section class="aboutMeSection">
+        <hr>
+        <div class="aboutMeText">
+            <h1>About Me</h1>
+        </div>
+        <div class="aboutMeBoxes">
+            <div>Hobbies <li>Ukelele</li><li>Hockey</li></div>
+            <div>Projects<li>WolfCoin</li><li>TicTacToe AI</li></div>
+            <div>Programming<li>Python and Javascript</li><li>C# and .Net</li></div>
+            <div>Experience<li>Software Eng Intern</li><li>Bartender</li></div>
+            <div>Education<li>Nevada Reno</li><li>Computer Science</li></div>
+            <div>Achievements<li>Eagle Scout</li><li>Theta Chi President</li></div>
+        </div>
+    </section>
+</body>
+</html>
+<script src="js/script.js"></script>

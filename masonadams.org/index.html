@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta name = 'viewport' content = 'width=device-wdith, initial-scale=1.0'>
+    <meta charset = 'UTF-8'>
+    <title>Mason's Portfolio</title>
+    <link rel = "stylesheet" href ="css/style.css" type="text/css">
+    <link rel = "icon" href = "img/logo.png" type = "image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html"class='logo'><img src="img/logo.png" class="logoimage"></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu();">About</a></li>
+            <li><a href="resume.html" onclick="toggleMenu();">Resume</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="blog.php" onclick="toggleMenu();">Blog</a></li>
+        </ul>
+    </header>
+    <section class ='banner' id="home">
+        <div class = "textBx">
+            <h2>Hello, I am <br><span>Mason Adams</span></h2>
+            <h3>Computer Science and Engineering Student at The University of Nevada Reno</h3>
+            <a href='about.html' class='btn'>About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Introduction</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Computer Science and Engineering Student at The University of Nevada Reno</h3>
+                <p> Hello, my name is Mason Adams and I am an aspiring software developer from the University of Nevada Reno. As a student, I have stayed busy through
+                    projects, bartending, acting president of a fraternity, and being an active member of clubs on campus. I am well versed in procedural and object oriented
+                    languages with a focus on C++,C#, python, and javascript. When not developing, I enjoy playing the ukelele, golfing, playing hockey, going to the gym, and socializing 
+                    with friends. I expect to graduate in May of 2021.<br><br> 
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<script src="js/script.js"></script>

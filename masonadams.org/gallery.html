@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta name = 'viewport' content = 'width=device-wdith, initial-scale=1.0'>
+    <meta charset = 'UTF-8'>
+    <title>Mason's Portfolio</title>
+    <link rel = "stylesheet" href ="css/style.css" type="text/css">
+    <link rel = "icon" href = "img/logo.png" type = "image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html"class='logo'><img src="img/logo.png" class="logoimage"></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu();">About</a></li>
+            <li><a href="resume.html" onclick="toggleMenu();">Resume</a></li>
+            <li><a href="gallery.html" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="blog.php" onclick="toggleMenu();">Blog</a></li>
+        </ul>
+    </header>
+    <section class="gallerySection">
+        <hr>
+        <div class="galleryText">
+            <h1>Gallery</h1>
+        </div>
+        <div class="gallery">
+              <img src="img/aboutme.jpg" alt="Cinque Terre" width="600" height="400">
+            <div class="desc">My Family</div>
+          </div>
+          
+          <div class="gallery">
+              <img src="img/banner.jpg" alt="Forest" width="600" height="400">
+            <div class="desc">Me!</div>
+          </div>
+          
+          <div class="gallery">
+              <img src="img/spamvham.PNG" alt="Northern Lights" width="600" height="400">
+            <div class="desc">Some of My Work in Linear Regression and Neural Networks</div>
+          </div>
+          
+          <div class="gallery">
+              <img src="img/thefog.PNG" alt="Mountains" width="600" height="400">
+            <div class="desc">A Video Game I created which combines First Person Shooting with Tower Defense</div>
+          </div>
+
+    </section>
+</body>
+</html>
+<script src="js/script.js"></script>

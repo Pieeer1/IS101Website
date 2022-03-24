@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    font-family: "Trirong", serif;
+}
+section
+{
+    padding:100px;
+    box-shadow: inset 0 0 100px #000;
+}
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background: #111;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: right;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner h2
+{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span
+{
+    line-height: 1.5em;
+    font-weight: 700;
+}
+.banner h3
+{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.btn
+{
+    position:relative;
+    background: #2196f3;
+    display:inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding:10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    z-index: 1000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background:darksalmon;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+header .logo
+{
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header .logo .logoimage
+{
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+    filter:sepia(75%);
+    filter: drop-shadow(8px 8px 10px salmon);
+}
+header.sticky .logo
+{
+    color:#111;
+
+
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color:#fff;
+    text-decoration: none;
+}
+header.sticky
+{
+    color:#111;
+
+}
+.heading
+{
+    width:100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+.heading h2
+{
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contentBx
+{
+    padding-right: 30px;
+
+}
+.contentBx h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+
+}
+.w50
+{
+    text-align: center;
+    min-width: 50%;
+}
+img
+{
+    max-width: 100%;
+
+}
+.projects
+{
+    background: #111;
+
+}
+.heading.white
+{
+    color:#fff;
+
+}
+
+
+
+.blog
+{
+    background:#404040;
+    background-size: cover;
+    background-position: right;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    min-height:150vh;
+    position:absolute;
+    width: 100%;
+    height:100%;
+
+}
+.blog h1
+{
+    padding-top: 20px;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+.blog .blogPost
+{
+    border-style: solid;
+    border-color: salmon;
+    background: #222;
+    color:white;
+    margin:150px;
+    text-align: center;
+}
+.blog .blogPost p 
+{
+    text-align: justify;
+    padding:10px;
+}
+.blog .comments
+{
+    border-style: solid;
+    border-color: salmon;
+    background: #222;
+    color:white;
+    margin:150px;
+}
+.blog .comments ul
+{
+        text-align: center;
+    
+}
+.blog .comments ul li
+{
+    display: inline-block;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.gallerySection
+{
+    background:#404040;
+    background-size: cover;
+    background-position: right;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    min-height:150vh;
+    position:absolute;
+    width: 100%;
+    height:100%;
+}
+.gallerySection h1
+{
+    padding-top: 20px;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 900px;
+    justify-content: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid salmon;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+
+
+
+
+
+.aboutMeSection
+{
+    background:#404040;
+    background-size: cover;
+    background-position: right;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    position:absolute;
+}
+.aboutMeSection h1
+{
+    padding-top: 20px;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+}
+.aboutMeSection .aboutMeBoxes
+{
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.aboutMeSection .aboutMeBoxes div
+{
+    position:relative;
+    width: 300px;
+    border:#fff;
+    padding: 0px;
+    margin: 100px;
+    border-width: 5px;
+    width: 400px;
+    height: 400px;
+    font-size: 30px;
+    background-color: wheat;
+    text-align: center;
+    display: inline-block;
+    content: center;
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: 5s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 5s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 5s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 5s; 
+    transition: .5s all;   
+    transition-delay: 5s; 
+}
+.aboutMeSection .aboutMeBoxes div:hover 
+{
+    background-color: cornsilk;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.aboutMeSection .aboutMeBoxes div li
+{
+    position:inherit;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+
+
+.resume
+{
+    background:#404040;
+    background-size: cover;
+    background-position: right;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    position:absolute;
+    width: 100%;
+    height:100%;
+}
+.resume .pdf 
+{
+    width: 100%;
+    height:100%;
+}
+
+
+
+.projects .content
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.projects .content .projectsBx
+{
+    padding: 40px 20px;
+    background: #222;
+    color:#fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.projects .content .projectsBx:hover
+{
+    background: #2196f3;
+}
+.projects .content .projectsBx img
+{
+    max-width: 250px;
+}
+.projects .content .projectsBx h2
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ongoingwork .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ongoingwork .content .ongoingworkBx
+{
+    width:50%;
+    padding:20px;
+
+}
+.ongoingwork .content .ongoingworkBx img
+{
+    max-width: 100%;
+    justify-content: center;
+
+}
+.contact
+{
+    background:#111;
+
+}
+.formBx
+{
+    min-width: 60%;
+}
+.formBx form
+{
+    display:flex;
+    flex-direction: column;
+}
+.formBx form h3,
+.contact h3
+{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form textarea
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize:none;
+}
+.formBx form textarea
+{
+    min-height: 200px;
+
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder
+{
+    color:darksalmon;
+}
+.formBx form button[type="submit"]
+{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    content:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.contactInfo
+{
+    min-width: 40%;
+}
+.contactInfoBx
+{
+    position: relative;
+
+}
+.contactInfoBx .box
+{
+    position: relative;
+    padding: 20px 0;
+    display:flex;
+}
+
+@media (max-width:991px)
+{
+    header,
+    header.sticky
+    {
+        padding: 20px,50px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+    .menu.active
+    {
+        left: 0;
+    }
+    header ul li a
+    {
+        color:#111;
+        font-size: 24px;
+        margin:10px;
+    }
+    .toggle
+    {
+        width: 40px;
+        height: 40px;
+        background: url(../img/threelines.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:30px;
+        cursor: pointer;
+    }
+    .toggle.active
+    {
+        background: url(../img/whiteclose2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:25px;
+        cursor: pointer;
+    }
+    header.sticky .toggle
+    {
+        filter: invert(1);
+    }
+    section
+    {
+        padding: 100px 50px;
+    }
+    .banner
+    {
+        padding: 150px 50px;
+    }
+    .banner h2
+    {
+        font-size: 1.5em;
+    }
+    .banner h3
+    {
+        font-size: 1em;
+    }
+    .btn
+    {
+        margin-top: 10px;
+        padding:10px 20px;
+        font-size: 16px;
+    }
+    .heading h2
+    {
+        font-size: 24px;
+    }
+    .contentBx h3
+    {
+        font-size: 20px;
+    }
+    .content
+    {
+        flex-direction: column;
+    }
+    .w50
+    {
+        margin-bottom: 20px;
+    }
+    .projects .content .projectsBx
+    {
+        margin: 10px;
+    }
+    .ongoingwork .content .ongoingworkBx
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    .contactInfo
+    {
+        margin: 20px 0;
+    }
+}

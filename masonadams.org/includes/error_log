@@ -1,0 +1,10 @@
+[24-Mar-2022 02:08:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'test' in 'field list' in /home/x4aqripku86u/public_html/masonadams.org/includes/comment.php:25
+Stack trace:
+#0 /home/x4aqripku86u/public_html/masonadams.org/includes/comment.php(25): mysqli->query()
+#1 {main}
+  thrown in /home/x4aqripku86u/public_html/masonadams.org/includes/comment.php on line 25
+[24-Mar-2022 02:11:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'test' in 'field list' in /home/x4aqripku86u/public_html/masonadams.org/includes/comment.php:21
+Stack trace:
+#0 /home/x4aqripku86u/public_html/masonadams.org/includes/comment.php(21): mysqli->query()
+#1 {main}
+  thrown in /home/x4aqripku86u/public_html/masonadams.org/includes/comment.php on line 21
